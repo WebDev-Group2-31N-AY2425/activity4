@@ -1,0 +1,60 @@
+/* Set Global Font */
+:root {
+  --bg: white;
+  --fg: #fdf5e5;
+  --primary: #1b3c3d;
+  --caption-bg: rgba(27, 60, 61, 0.3);
+}
+
+* {
+  font-family: "Inter", sans-serif !important;
+}
+#carouselExampleCaptions {
+  margin-top: 100px;
+}
+img {
+  object-fit: cover;
+}
+
+nav {
+  width: 100%;
+  background-color: var(--primary);
+}
+
+.nav-link,
+.navbar-brand {
+  color: var(--fg) !important;
+}
+
+.btn-primary {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+
+body {
+  background-color: #fdf5e5 !important;
+}
+
+:where(.container, .container-fluid) {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.carousel-caption {
+  background-color: var(--caption-bg);
+}
+
+.carousel-item img {
+  max-height: 600px;
+  border-radius: 15px;
+}
+
+.menu-card {
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
