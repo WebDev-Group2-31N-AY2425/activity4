@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Silya - Contact</title>
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/contact.css" />
+    <link rel="icon" type="image/x-icon" href="src/images/favicon.ico">
+
+    <!-- Bootstrap CSS / Normalize -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top shadow navbar-dark">
+        <div class="container-fluid">
+          <div class="d-flex">
+            <a class="navbar-brand" href="index.html"> Silya</a>
+            <img src="src/images/logo.svg" height="32" />
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="contact.html"
+                  >Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Contact section-->
+    <section class="container py-5 contact">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="mb-4">Keep In Touch</h2>
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title">Contact Details</h5>
+              <p class="card-text">
+                <strong>Phone:</strong> <em>09487623564</em> |
+                <em>09674498345</em><br />
+                <strong>Email:</strong> <em>silya@gmail.com</em>
+              </p>
+            </div>
+          </div>
+
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title">Opening Hours</h5>
+              <p class="card-text">
+                <strong>Daily:</strong> <em>10:00 AM - 10:00 PM</em>
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Our Location</h5>
+              <p class="card-text">
+                <strong>Address:</strong>
+                <em>26th Street corner McKinley Parkway, Bonifacio Global City, Taguig City, Philippines</em>
+              </p>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.905049771451!2d121.05162861051505!3d14.547422085873947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c8ed71dcb6bf%3A0xa0942fe88993415!2s26th%20St%20%26%20McKinley%20Pkwy%2C%20Taguig%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1742877071916!5m2!1sen!2sph" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </iframe>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <h2 class="mb-4">Contact Us</h2>
+          <form>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="firstName" class="form-label">First Name (required)</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="firstName"
+                  name="First Name"
+                  placeholder="Marcox"
+                  required/>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="lastName" class="form-label">Last Name (required)</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastName"
+                  name="Last Name"
+                  placeholder="Mediran"
+                  required/>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address (required)</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="Email"
+                placeholder="marcoxmediran@gmail.com"
+                required/>
+            </div>
+
+            <div class="mb-3">
+              <label for="phone" class="form-label">Phone Number (Optional)</label>
+              <input
+                type="tel"
+                class="form-control"
+                name="Phone Number"
+                id="phone"/>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Your Message</label>
+              <textarea
+                class="form-control"
+                id="message"
+                name="Message"
+                rows="10"
+                placeholder="Type your message here!"
+                required></textarea>
+            </div>
+
+            <div class="text-center">
+              <button
+                type="submit"
+                id="contact-btn"
+                class="btn btn-primary btn-lg">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--Footer-->
+    <footer class="text-center py-3">
+      Copyright © 2025 SILYA. All Rights Reserved
+    </footer>
+  </body>
+</html>

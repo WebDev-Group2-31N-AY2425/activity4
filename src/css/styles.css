@@ -25,6 +25,10 @@ nav {
 .navbar-brand {
   color: var(--fg) !important;
 }
+.nav-link:hover {
+  color: var(--bg) !important;
+  transform: translateY(-2px);
+}
 
 .btn-primary {
   background-color: var(--primary) !important;
@@ -57,4 +61,12 @@ body {
 .menu-card:hover {
   transform: scale(1.02);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.contact {
+  margin-top: 100px;
+}
+#menu-list a {
+  color: #1b3c3d !important;
+  font-weight: 700;
 }
