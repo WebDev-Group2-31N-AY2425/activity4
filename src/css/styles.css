@@ -71,3 +71,9 @@ body {
   color: #1b3c3d !important;
   font-weight: 700;
 }
+
+.menu-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
