@@ -20,6 +20,7 @@ nav {
 .navbar-brand {
   color: var(--fg) !important;
 }
+
 .nav-link:hover {
   color: var(--bg) !important;
   transform: translateY(-2px);

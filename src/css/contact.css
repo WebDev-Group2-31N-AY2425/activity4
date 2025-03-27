@@ -22,11 +22,10 @@ h5.card-title {
 }
 
 #contact-btn:hover {
-  background-color: var(--color) !important; 
+  background-color: var(--color) !important;
   color: var(--bg-ground);
   width: 50%;
   border: 3px solid var(--bg-ground);
   border-radius: 10px 20px !important;
   font-weight: 800;
 }
-

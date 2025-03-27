@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function() {
   const menuItems = {
     Appetizers: [
       {
@@ -222,7 +222,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   document.querySelectorAll(".menu-nav .nav-link").forEach((anchor) => {
-    anchor.addEventListener("click", function (event) {
+    anchor.addEventListener("click", function(event) {
       event.preventDefault();
       const category = this.textContent.trim();
       if (menuItems[category]) {

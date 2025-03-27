@@ -9,9 +9,11 @@
 * {
   font-family: "Inter", sans-serif !important;
 }
+
 #carouselExampleCaptions {
   margin-top: 100px;
 }
+
 img {
   object-fit: cover;
 }
@@ -26,6 +28,7 @@ nav {
 .navbar-brand {
   color: var(--fg) !important;
 }
+
 .nav-link:hover {
   color: var(--bg) !important;
   transform: translateY(-2px);
@@ -67,6 +70,7 @@ body {
 .contact {
   margin-top: 100px;
 }
+
 #menu-list a {
   color: #1b3c3d !important;
   font-weight: 700;
